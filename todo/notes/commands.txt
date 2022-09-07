@@ -1,0 +1,4 @@
+node /dist/index.js
+tsc
+git commit "Adding todo collection"
+git push

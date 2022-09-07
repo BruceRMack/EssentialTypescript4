@@ -8,4 +8,4 @@ console.clear();
 console.log(`${collection.userName}'s todo list`);
 let newId = collection.addTodo("Go For Run");
 let todoItem = collection.getTodoById(newId);
-console.log(JSON.stringify(todoItem));
+todoItem.printDetails();
